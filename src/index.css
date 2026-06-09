@@ -2,13 +2,21 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f7f7f7;
-  color: #222;
+:root {
+  font-family: Inter, Arial, sans-serif;
+  color: #172033;
+  background: #fff7ed;
 }
 
-a {
-  color: inherit;
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top left, rgba(255, 107, 107, 0.22), transparent 30%),
+    radial-gradient(circle at top right, rgba(56, 189, 248, 0.22), transparent 28%),
+    #fff7ed;
+}
+
+button {
+  font-family: inherit;
 }
