@@ -1,0 +1,9 @@
+.page {
+  width: min(900px, 100%);
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+
+.page h2 {
+  margin-top: 0;
+}
