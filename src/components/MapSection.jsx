@@ -1,21 +1,12 @@
-import { useState } from 'react'
-
 function MapSection({ rooms }) {
-  const [imageError, setImageError] = useState(false)
-
   return (
     <section className="map-section">
-      {!imageError ? (
-        <img
-          src="/images/map.png"
-          alt="Kart over festivalområdet"
-          onError={() => setImageError(true)}
-        />
-      ) : (
-        <div className="map-placeholder">
-          Kartbildet er ikke lagt inn ennå. Bruk romoversikten under.
-        </div>
-      )}
+      <iframe
+        title="Google Maps: Hamar katedralskole"
+        src="https://www.google.com/maps?q=Hamar%20katedralskole%2C%20Ringgata%20235%2C%202315%20Hamar&output=embed"
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      ></iframe>
 
       <div className="room-grid">
         {rooms.map((room) => (

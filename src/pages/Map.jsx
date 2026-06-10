@@ -7,7 +7,10 @@ function Map() {
       <section className="page-heading">
         <p className="eyebrow">Finn fram</p>
         <h2>Kart</h2>
-        <p>Her er en enkel oversikt over rommene i dataset.json.</p>
+        <p>
+          Her finner du Hamar katedralskole Adresse: Ringgata
+          235, 2315 Hamar.
+        </p>
       </section>
       <MapSection rooms={dataset.rom} />
     </main>

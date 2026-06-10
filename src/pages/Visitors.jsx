@@ -8,7 +8,7 @@ function Visitors() {
       <section className="page-heading">
         <p className="eyebrow">Hvem kommer?</p>
         <h2>Besøkende</h2>
-        <p>Festivalen viser bedrifter, lærere og elever fra dataset.json.</p>
+        <p>Festivalen viser bedrifter, lærere og elever.</p>
       </section>
 
       <section className="visitor-group">

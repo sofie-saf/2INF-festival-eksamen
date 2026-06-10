@@ -9,15 +9,11 @@ function ProgramCard({ item }) {
         <span className="tag">{item.kategori}</span>
         <h3>{item.tittel}</h3>
         <p className="muted">{item.beskrivelse}</p>
-        <p>
-          <strong>Bedrift:</strong> {item.companyName}
-        </p>
-        <p>
-          <strong>Rom:</strong> {item.rom}
-        </p>
-        <p>
-          <strong>Plasser:</strong> {item.maksPlasser}
-        </p>
+        <div className="program-meta">
+          <span>{item.companyName}</span>
+          <span>{item.rom}</span>
+          <span>{item.maksPlasser} plasser</span>
+        </div>
       </div>
     </article>
   )

@@ -8,6 +8,9 @@ function CompanyCard({ company }) {
       <p>
         <strong>Kontakt:</strong> {company.kontaktperson}
       </p>
+      <a href={company.nettside} target="_blank" rel="noreferrer">
+        Besøk nettside
+      </a>
     </article>
   )
 }
